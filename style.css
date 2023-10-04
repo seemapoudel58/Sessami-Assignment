@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Times New Roman', Times, serif;
+    /* background-color:; */
+    color: rgb(32, 24, 24);
+  }
+  
+  header {
+    padding: 20px;
+    /* text-transform: capitalize; */
+  }
+  
+  h1 {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    margin: 0;
+    margin-bottom: 15px;
+  }
+  section {
+    padding: 20px;
+  }
+  
+  table {
+    width: 90%;
+    height: 30vh;
+    border-collapse: collapse;
+  }
+  
+  table th {
+    color: black;
+    text-transform: capitalize;
+    font-size: 19px;
+    text-align: start;
+  }
+  table tr {
+    /* padding: 20px; */
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    border-bottom: 1px solids black;
+  }
+  
+  
+  tbody tr:nth-child(even) {
+    background-color: lightslategrey; 
+    color: white; 
+  }
+  
+  table tr:nth-child(even) a {
+    color: white; 
+    text-decoration: none; 
+  }
+  
+  table tr:nth-child(even) a:hover {
+    color: red; 
+    text-decoration: underline; 
+  }
+
+  table tr:nth-child(odd) a {
+    color: black; 
+    text-decoration: none; 
+  }
+  
+table tr:nth-child(odd) a:hover {
+    color: red; 
+    text-decoration: underline; 
+  }
+
+  .detail {
+    font-size: 19px;
+  }
+  
