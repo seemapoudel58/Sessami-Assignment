@@ -59,7 +59,6 @@
   }
   
   table tr:nth-child(even) a:hover {
-    color: red; 
     text-decoration: underline; 
   }
 
