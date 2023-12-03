@@ -34,6 +34,10 @@
     border-collapse: collapse;
   }
   
+  tr{
+    height:3rem;
+    font-size: 1.2rem;
+  }
   table th {
     color: black;
     text-transform: capitalize;
@@ -68,7 +72,6 @@
   }
   
 table tr:nth-child(odd) a:hover {
-    color: red; 
     text-decoration: underline; 
   }
 
